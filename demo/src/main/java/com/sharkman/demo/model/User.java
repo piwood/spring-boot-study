@@ -9,8 +9,17 @@ package com.sharkman.demo.model;
  * @author piwood
  */
 public class User {
+    /**
+     * 用户id
+     */
     private Long id;
+    /**
+     * 姓名
+     */
     private String name;
+    /**
+     * 年龄
+     */
     private Integer age;
     /**
      * @return the id
