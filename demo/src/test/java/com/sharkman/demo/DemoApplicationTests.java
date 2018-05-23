@@ -31,7 +31,7 @@ public class DemoApplicationTests {
     public void setUp() throws Exception { 
         mvc = MockMvcBuilders.standaloneSetup(new UserController()).build(); 
     } 
-	@Test
+    @Test
 	public void contextLoads() {
 	}
 	@Test 
